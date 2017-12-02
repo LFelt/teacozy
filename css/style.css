@@ -62,3 +62,18 @@ nav a {
 .text {
   justify-content: center;
 }
+
+.month {
+  display: flex;
+}
+
+.store {
+  display: flex;
+  padding: 40px;
+  flex-flow: center row;
+}
+
+.tea img {
+  height: 200px;
+  width: 300px;
+}
