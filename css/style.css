@@ -18,7 +18,7 @@ body {
   top: 0;
   align-items: center;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   flex-wrap: wrap;
 }
 
@@ -32,6 +32,7 @@ nav {
   text-decoration: underline;
   display: inline-block;
   text-align: right;
+  padding: 10px;
 }
 
 nav span {
