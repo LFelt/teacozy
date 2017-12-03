@@ -17,34 +17,29 @@ body {
   background: black;
   top: 0;
   align-items: center;
-}
-
-.flex-conatiner {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
 }
-.logo {
-  display: flex;
+
+.logo img {
   height: 50px;
-  align-items: center;
   padding: 10px;
+  justify-content: left;
 }
 
 nav {
   text-decoration: underline;
   color: seashell;
-  display: flex;
+  display: inline-block;
   text-align: right;
 }
 
 nav span {
-  display: inline-block;
   padding: 20px 10px;
 }
 
 nav a {
-  text-align: right;
   color: seashell;
 }
 
@@ -57,14 +52,10 @@ nav a {
   display: flex;
 }
 
-.mission {
+.text {
   background: black;
   width: 1200px;
   margin: auto;
-}
-
-.text {
-  justify-content: center;
 }
 
 .month {
