@@ -112,6 +112,7 @@ h2{
 .footer {
   display: block;
   text-align: center;
+  height: 200px;
 }
 
 .copyright {
